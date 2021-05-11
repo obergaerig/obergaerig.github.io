@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   src: local("RobotoMono"),
-    url("./font/RobotoMono-VariableFont_wght.ttf") format("truetype");
+    url("./font/roboto-mono/RobotoMono-VariableFont_wght.ttf");
 }
 
 :root {
@@ -11,7 +11,7 @@
   --bg-color: #6eb6ff;
 }
 
-tml {
+html {
   box-sizing: border-box;
 }
 
@@ -40,6 +40,7 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
+  color: var(--color);
 }
 
 .logo-with-name {
@@ -49,21 +50,31 @@ body {
 
 h1 {
   color: var(--color);
+  margin-bottom: 0;
 }
 
 h1 b {
   color: var(--bg-color);
 }
 
-footer {
-  width: 30vw;
-  justify-self: flex-end;
-  margin-top: 3rem;
-  padding: 3rem;
-  text-align: center;
+.ruler {
+  width: 40vw;
   border-top: 2px solid var(--bg-color);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 a {
-  color: var(--color)
+  color: var(--color);
 }
