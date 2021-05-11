@@ -44,12 +44,13 @@ body {
 }
 
 .logo-with-name {
+  padding: 7rem 5rem;
   width: 100%;
   height: 50%;
 }
 
 h1 {
-  color: var(--color);
+  color: #adadad;
   margin-bottom: 0;
 }
 
@@ -60,7 +61,7 @@ h1 b {
 .ruler {
   width: 40vw;
   border-top: 2px solid var(--bg-color);
-  margin-top: 5rem;
+  margin-top: 8.5rem;
   margin-bottom: 5rem;
 }
 
