@@ -1,5 +1,13 @@
+@font-face {
+  font-family: "RobotoMono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("RobotoMono"),
+    url("./font/RobotoMono-VariableFont_wght.ttf") format("truetype");
+}
+
 :root {
-  --color: #444;
+  --color: #727272;
   --bg-color: #6eb6ff;
 }
 
@@ -21,10 +29,11 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  font-family: "Roboto Mono", monospace;
+  font-family: "RobotoMono", monospace;
+  font-size: 1rem;
 }
 
-.wrapper {
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,15 +42,28 @@ body {
   height: 100%;
 }
 
-.wrapper .logo-with-name {
+.logo-with-name {
   width: 100%;
   height: 50%;
 }
 
-.wrapper h1 {
+h1 {
   color: var(--color);
 }
 
-.wrapper h1 b {
+h1 b {
   color: var(--bg-color);
+}
+
+footer {
+  width: 30vw;
+  justify-self: flex-end;
+  margin-top: 3rem;
+  padding: 3rem;
+  text-align: center;
+  border-top: 2px solid var(--bg-color);
+}
+
+a {
+  color: var(--color)
 }
