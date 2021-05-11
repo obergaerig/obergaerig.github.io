@@ -1,4 +1,6 @@
-# obergaerig.github.io
+<img src="./src/logo-with-name.svg" width="300"/>
+
+--------
 
 ## Third Party
 
