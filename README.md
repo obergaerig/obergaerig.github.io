@@ -4,7 +4,7 @@
 
 ## Third Party
 
-- [Robot Mono](https://fonts.google.com/specimen/Roboto+Mono) font
+- [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) font
 
 ---
 
